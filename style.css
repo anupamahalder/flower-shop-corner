@@ -189,6 +189,7 @@ button:hover{
     border: 2px solid red;
     margin-bottom: 50px;
     position: relative;
+    margin-bottom: 100px;
  }
  .contact-img{
     width: 100%;
@@ -206,7 +207,7 @@ button:hover{
 }
 .contact-form{
    display: flex;
-   justify-content: space-evenly;
+   justify-content: space-around;
    align-items: center;
    position: absolute;
    bottom: 0;
@@ -214,5 +215,11 @@ button:hover{
    right: 0;
    padding-bottom: 120px;
    display: flex;
-   gap: 15px;
+}
+.contact-email{
+   width: 700px;
+   height: 40px;
+}
+.contact-btn{
+   margin-left: -5px;
 }
