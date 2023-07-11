@@ -223,3 +223,20 @@ button:hover{
 .contact-btn{
    margin-left: -5px;
 }
+/* This is footer section  */
+footer{
+   height: 500px;
+   background-color:#111010;
+   padding-top: 70px;
+   text-align: center;
+}
+footer>h1{
+   padding-bottom: 30px;
+   color: rgba(255, 255, 255, 1);
+}
+span{
+   color: rgba(229, 84, 115, 1);
+}
+.footer-para{
+   color: rgba(255, 255, 255, 0.9);
+}
