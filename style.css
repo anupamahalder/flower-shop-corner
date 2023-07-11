@@ -189,7 +189,7 @@ button:hover{
     border: 2px solid red;
     margin-bottom: 50px;
     position: relative;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
  }
  .contact-img{
     width: 100%;
@@ -252,4 +252,9 @@ span{
    color: rgba(255, 255, 255, 0.40);
    font-size: 16px;
    padding-top: 20px;
+}
+/* This is additional block design  */
+#addi{
+   background-color: #b92d4b;
+   height: 400px;
 }
