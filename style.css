@@ -263,7 +263,7 @@ span{
    padding-top: 50px;
    text-align: center;
 }
-.hr{
-   width: 50%;
-   align-items: center;
+.add{
+   display: flex;
+   padding-left: 50px;
 }
