@@ -218,7 +218,9 @@ button:hover{
 }
 .contact-email{
    width: 700px;
-   height: 40px;
+   height: 64px;
+   border-radius: 8px;
+   border: 0;
 }
 .contact-btn{
    margin-left: -5px;
