@@ -187,7 +187,7 @@ button:hover{
  #contact-sec{
     margin: 0;
     border: 2px solid red;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     position: relative;
     /* margin-bottom: 100px; */
  }
@@ -256,5 +256,14 @@ span{
 /* This is additional block design  */
 #addi{
    background-color: #b92d4b;
-   height: 400px;
+   height: 450px;
+   color: aliceblue;
+}
+#addi h1{
+   padding-top: 50px;
+   text-align: center;
+}
+.hr{
+   width: 50%;
+   align-items: center;
 }
