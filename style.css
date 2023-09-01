@@ -7,26 +7,28 @@
 }
 /* Styling header section  */
 header{
-    padding-top: 30px;
-    padding-left: 50px;
-    padding-right: 20px;
+    padding: 20px 30px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     background-color: rgba(229, 84, 115, 0.1);
-    min-width: 500px;
-    height: 90vh;
-    padding-bottom: 0px;
-    gap: 25px;
+    width: 100%;
+    height: 70vh;
+}
+.header{
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 .head-text{
     padding:20px 30px;
-    width: 100%;
+    /* width: 100%; */
 }
 .heading{
     color: #272727;
     font-size: 60px;
     font-weight: 800;
+    padding-bottom: 30px;
 }
 .head-text>p{
     padding-top: 30px;
@@ -39,10 +41,14 @@ header{
     padding-bottom: 20px;
 }
 .head-img{
-    margin: 0;
-    position: bottom right;
-    margin-bottom: 0;
-    margin-left: 30px;
+    position: relative;
+    bottom: -35px;
+}
+.d-flex{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
 }
 button{
     margin-top: 30px;
@@ -185,11 +191,11 @@ button:hover{
  }
  /* This is contact us section  */
  #contact-sec{
-    margin: 0;
+   background-image: url(./imageFolder/Rectangle\ 9.png);
+    margin:70px 0;
     border: 2px solid red;
-    /* margin-bottom: 50px; */
-    position: relative;
-    /* margin-bottom: 100px; */
+    padding-top: 150px;
+    padding-bottom: 120px;
  }
  .contact-img{
     width: 100%;
@@ -198,8 +204,6 @@ button:hover{
     overflow: hidden;
  }
 .contact-text{
-   position: absolute;
-   padding-top: 100px;
    top: 0;
    left: 0;
    right: 0;
@@ -207,14 +211,9 @@ button:hover{
 }
 .contact-form{
    display: flex;
-   justify-content: space-around;
-   align-items: center;
-   position: absolute;
-   bottom: 0;
-   left: 0;
-   right: 0;
-   padding-bottom: 120px;
-   display: flex;
+   justify-content: center;
+   align-items: baseline;
+   gap: 40px;
 }
 .contact-email{
    width: 700px;
@@ -225,8 +224,8 @@ button:hover{
    font-size: 16px;
    color: rgba(39, 39, 39, 0.6);
 }
-.contact-btn{
-   margin-left: -5px;
+.subscribe{
+   padding: 18px;
 }
 /* This is footer section  */
 footer{
@@ -272,4 +271,24 @@ span{
 .tips{
    font-size: 24px;
    font-weight: 600;
+}
+
+/* Responsive  */
+@media screen and (max-width:576px) {
+   .header{
+      flex-direction: column;
+      left: auto;
+      right: auto;
+   }
+   .d-flex{
+      /* padding-bottom: 740px; */
+   }
+   .featured-flowers,.flowername-list{
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+   }
+   .insta-img{
+      flex-direction: column;
+   }
 }
