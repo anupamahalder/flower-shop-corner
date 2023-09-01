@@ -134,7 +134,30 @@ button:hover{
     font-size: 18px;
     font-weight: 600;
  }
- 
+ /* This is sell div style  */
+#sell-div{
+    background-color: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+ }
+ .sell-text{
+    padding-top: 150px;
+    padding-bottom: 100px;
+ }
+ .sell-heading{
+    font-size: 35px;
+    font-weight: 800;
+    padding-bottom: 20px;
+ }
+ .sell-para{
+    text-align: center;
+ }
+ #makered{
+    color: rgb(238, 50, 50);
+ }
 
 
 
@@ -171,7 +194,7 @@ button:hover{
         margin-top: 80px;
         margin-left: 50px;
      }
-     .serivce-img-div{
+     .serivce-img-div,#sell-div{
         flex-direction: column;
      }
      .service-img{
@@ -183,5 +206,8 @@ button:hover{
         /* justify-content: center; */
         align-items: center;
         margin: 0;
+     }
+     .sell-text{
+        padding: 25px;
      }
 }
