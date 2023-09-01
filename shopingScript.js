@@ -5,3 +5,8 @@ function goToshop(){
 function goToHome(){
     window.location.href = "index.html";
 }
+
+//Handle click button 
+function handleClickBtn(){
+    console.log("Button clicked");
+}

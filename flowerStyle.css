@@ -68,3 +68,12 @@
         margin: 20px auto;
     }
 }
+@media screen and ((min-width: 577px) and (max-width:990px)) {
+    #main{
+        margin: 0 auto;
+    }
+    #card-section{
+        display: grid;
+        grid-template-columns: 2;
+    }
+}
