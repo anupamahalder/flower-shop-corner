@@ -57,6 +57,9 @@
     font-weight: bold;
     border: none;
 }
+.add-btn:hover{
+    cursor: pointer;
+}
 
 
 /* Media queries  */

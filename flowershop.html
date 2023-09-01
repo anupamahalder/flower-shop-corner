@@ -18,33 +18,33 @@
                 <h3>Red Rose</h3>
                 <p>This flower is garden fresh rose with bright color</p>
                 <p>Price: <span>25</span> $</p>
-                <button onclick="handleClickBtn()" id="rose-btn" class="add-btn">Add To Cart</button>
+                <button onclick="handleClickBtn(this)" id="rose-btn" class="add-btn">Add To Cart</button>
             </div>
             <div class="img-div">
                 <img class="img" src="./imageFolder/Rectangle 4.png" alt="">
                 <h3>Snow White Flower</h3>
                 <p>The fragrance of the flower is unforgetable</p>
                 <p>Price: <span>40</span> $</p>
-                <button id="white-btn" class="add-btn">Add To Cart</button>
+                <button onclick="handleClickBtn(this)" id="white-btn" class="add-btn">Add To Cart</button>
             </div>
             <div class="img-div">
                 <img class="img" src="./imageFolder/Rectangle 5.png" alt="">
                 <h3>Multi Colored Flower</h3>
                 <p>The beauty of the flower is best to see and feel</p>
                 <p>Price: <span>70</span> $</p>
-                <button id="multi-btn" class="add-btn">Add To Cart</button>
+                <button onclick="handleClickBtn(this)" id="multi-btn" class="add-btn">Add To Cart</button>
             </div>
         </section>
         <!-- Price section  -->
         <section id="price-section">
             <div id="flower-price-div">
                 <h1>Flowers name</h1>
-                <div></div>
+                <div id="flowers-name-div"></div>
                 <hr>
-                <p>Total: <span>00</span></p>
-                <p>Discount: <span>00</span></p>
+                <p>Total: <span id="totalPrice">00</span></p>
+                <p>Discount: <span id="discountPrice">00</span></p>
                 <hr>
-                <h1>Grand Total: <span>00</span></h1>
+                <h1>Grand Total: <span id="grandPrice">00</span></h1>
             </div>
         </section>
     </main>
