@@ -5,50 +5,31 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
-/* Styling header section  */
-header{
-    padding: 20px 30px;
+/* header styles section  */
+#header{
+    background-color: rgba(229, 84, 115, 0.05);
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    background-color: rgba(229, 84, 115, 0.1);
-    width: 100%;
-    height: 70vh;
+    padding: 0 40px;
+    padding-top: 20px;
+    margin: 0 auto;
 }
-.header{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
-.head-text{
-    padding:20px 30px;
-    /* width: 100%; */
-}
-.heading{
-    color: #272727;
-    font-size: 60px;
-    font-weight: 800;
-    padding-bottom: 30px;
-}
-.head-text>p{
-    padding-top: 30px;
-    padding-right: 20px;
-    color: rgba(39, 39, 39, 0.60);
-    font-family: Lato;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
+#head-text,#d-flex{
+    flex: 1;
     padding-bottom: 20px;
 }
-.head-img{
-    position: relative;
-    bottom: -35px;
+#d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.d-flex{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   padding: 20px;
+#heading{
+    color: #272727;
+    font-size: 50px;
+    font-weight: 800;
+    padding-bottom: 30px;
 }
 button{
     margin-top: 30px;
@@ -63,29 +44,42 @@ button{
 button:hover{
     background-color: #b92d4b;
 }
- /* featured section starts here  */
- #feature{
-    padding-top: 150px;
+#heading-para{
+    /* padding-top: 30px; */
+    padding-right: 20px;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+/* featured section starts here  */
+#feature{
+    padding-top: 100px;
     text-align: center;
- }
- .feature-heading{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#feature-heading{
     font-size: 40px;
     font-weight: 900;
     color: rgba(39, 39, 39, 1);
     margin-bottom: 15px;
- }
- .feature-text{
+}
+#feature-text{
     color: rgba(39, 39, 39, 0.6);
     font-size: 17px;
     margin-bottom: 50px;
- }
-
- /* featured flowers div starts here  */
- #featured-flowers{
+}
+/* Flowers div section  */
+#featured-flowers{
     display: flex;
     justify-content: space-around;
     /* align-items:baseline; */
     gap: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-bottom: 50px;
  }
  .fdiv{
@@ -94,67 +88,54 @@ button:hover{
     border-radius: 300px 300px 0px 0px;
     align-content: end;
  }
- .img1{
-    width: 500px;
-    margin: auto;
+ #div1{
+    background: rgba(167, 33, 98, 0.15);
+ }
+ #div2{
+    background: rgba(5, 151, 160, 0.15);
+ }
+ #div3{
+    background: rgba(71, 125, 17, 0.15);
+ }
+ #div1,#div2,#div3{
+    background-repeat: no-repeat;
+    background-position: bottom;
  }
  .fdiv>img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
- }
- .div1{
-    background: rgba(167, 33, 98, 0.15);
-    background-image: url(./imageFolder/pngwing\ 6.png);
-    background-repeat: no-repeat;
-    background-position: bottom;
- }
- .div2{
-    background: rgba(5, 151, 160, 0.15);
-    background-image: url(./imageFolder/pngwing\ 5.png);
-    background-repeat: no-repeat;
-    background-position: bottom;
- }
- .div3{
-    background: rgba(71, 125, 17, 0.15);
-    background-image: url(./imageFolder/pngwing\ 7.png);
-    background-repeat: no-repeat;
-    background-position: bottom;
- }
- .flowername-list{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding-bottom: 50px;
+    height: 80%;
+    align-items:center;
+    margin-top: 100px;
  }
  .flowername{
+    margin: 10px auto;
     text-align: center;
     text-decoration: underline;
     color: rgba(39, 39, 39, 1);
     font-size: 20px;
     font-weight: 700;
  }
- /* This is service section  */
- #service-div{
-    margin: 80px 50px;
+/* This is service section  */
+#service-div{
+    margin: 100px auto;
     background-color: rgba(39, 39, 39, 0.05);
     padding-top: 70px;
  }
- .serivce-img{
+ .serivce-img-div{
     display: flex;
     justify-content: space-around;
     margin-bottom: 20px;
+    padding-bottom: 50px;
  }
  .service-text{
     display: flex;
-    justify-content: space-around;
+    align-items: center;
     padding-bottom: 70px;
     color: rgba(39, 39, 39, 0.8);
     font-size: 18px;
     font-weight: 600;
  }
  /* This is sell div style  */
- #sell-div{
+#sell-div{
     background-color: rgba(229, 84, 115, 0.05);
     display: flex;
     justify-content: space-evenly;
@@ -174,6 +155,9 @@ button:hover{
  .sell-para{
     text-align: center;
  }
+ #makered{
+    color: rgb(238, 50, 50);
+ }
  /* This is instagram section  */
  .insta-text{
     text-align: center;
@@ -183,112 +167,196 @@ button:hover{
     font-size: 18px;
     padding-bottom: 50px;
  }
- .insta-img{
+ .insta-img-div{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    gap: 10px;
     padding-bottom: 100px;
  }
- /* This is contact us section  */
- #contact-sec{
-   background-image: url(./imageFolder/Rectangle\ 9.png);
-    margin:70px 0;
-    border: 2px solid red;
-    padding-top: 150px;
-    padding-bottom: 120px;
+ .insta-img>img{
+    /* width: 90%; */
+    width: 250px;
  }
- .contact-img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    overflow: hidden;
+/* This is contact us section  */
+#contact-sec{
+    background-image: url(./imageFolder/Rectangle\ 9.png);
+     margin:70px 50px;
+     border: 2px solid red;
+     /* padding-top: 140px;
+     padding-bottom: 120px; */
+     height: 380px;
+  }
+  .contact-img{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     overflow: hidden;
+  }
+ .contact-text{
+    margin-top: 100px;
+    text-align: center;   
  }
-.contact-text{
-   top: 0;
-   left: 0;
-   right: 0;
-   text-align: center;   
-}
-.contact-form{
-   display: flex;
-   justify-content: center;
-   align-items: baseline;
-   gap: 40px;
-}
-.contact-email{
-   width: 700px;
-   height: 64px;
-   border-radius: 8px;
-   border: 0;
-   padding-left: 15px;
-   font-size: 16px;
-   color: rgba(39, 39, 39, 0.6);
-}
-.subscribe{
-   padding: 18px;
+ .contact-form{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 40px;
+ }
+ #contact-email{
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    border: 0;
+    padding-left: 15px;
+    font-size: 16px;
+    color: rgba(39, 39, 39, 0.6);
+ }
+ #subscribe-btn{
+    padding: 18px;
+ }
+ /* This is additional block design  */
+#addi{
+    background-color: #b92d4b;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 auto; */
+ }
+ #addi>div>h1{
+    padding-top: 50px;
+    text-align: center;
+ }
+ .tips-div{
+    
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+ }
+ .tips{
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 20px;
+ }
+ #tips-para{
+    /* padding: 20px auto; */
+    margin: 20px;
+ }
+.tips-div>p>span{
+    font-weight: 800;
+    color: white;
 }
 /* This is footer section  */
 footer{
-   height: 500px;
-   background-color:#111010;
-   text-align: center;
-}
-footer>h1{
-   padding-top: 150px;
-   padding-bottom: 30px;
-   color: rgba(255, 255, 255, 1);
-}
-span{
-   color: rgba(229, 84, 115, 1);
-}
-.footer-para{
-   color: rgba(255, 255, 255, 0.9);
-   font-size: 18px;
-   padding-bottom: 20px;
-   padding-top: 30px;
-}
-.copyright{
-   color: rgba(255, 255, 255, 0.40);
-   font-size: 16px;
-   padding-top: 20px;
-}
-/* This is additional block design  */
-#addi{
-   background-color: #b92d4b;
-   height: 450px;
-   color: aliceblue;
-}
-#addi h1{
-   padding-top: 50px;
-   text-align: center;
-}
-.add{
-   padding-top: 30px;
-   display: flex;
-   justify-content: space-around;
-   padding-left: 50px;
-}
-.tips{
-   font-size: 24px;
-   font-weight: 600;
-}
+    /* height: 500px; */
+    background-color:#111010;
+    text-align: center;
+ }
+.footer-heading{
+    padding-top: 100px;
+    padding-bottom: 30px;
+    color: rgba(255, 255, 255, 1);
+ }
+ span{
+    color: rgba(229, 84, 115, 1);
+ }
+ .footer-para{
+    width: 70%;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 18px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+ }
+ .copyright{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+ }
 
-/* Responsive  */
+/* Media queries  */
 @media screen and (max-width:576px) {
-   .header{
-      flex-direction: column;
-      left: auto;
-      right: auto;
-   }
-   .d-flex{
-      /* padding-bottom: 740px; */
-   }
-   .featured-flowers,.flowername-list{
-      display: flex;
-      flex-direction: column;
-      margin: 0 auto;
-   }
-   .insta-img{
-      flex-direction: column;
-   }
+    #header{
+        flex-direction: column-reverse;
+    }
+    #heading{
+        font-size: 34px;
+    }
+    #feature{
+        padding-top: 40px;
+    }
+    #feature-heading{
+        font-size: 30px;
+    }
+    #feature-text,.insta-para{
+        /* margin: 0 20px; */
+        font-size: 12px;
+    }
+    #featured-flowers{
+        flex-direction: column;
+        gap: 60px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fdiv{
+        margin: 0 auto;
+        width: 350px;
+        height: 400px;
+    }
+    .fdiv>img{
+        margin-top: 80px;
+        margin-left: 50px;
+     }
+     .serivce-img-div,#sell-div,.insta-img-div,.contact-form{
+        flex-direction: column;
+     }
+     .service-img{
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        gap: 10px;
+        /* justify-content: center; */
+        align-items: center;
+        margin: 0;
+     }
+     .sell-text{
+        padding: 25px;
+     }
+     #contact-email{
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        height: 50px;
+     }
+     .contact-form{
+        gap: 0;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+     }
+     .contact-form>div{
+        flex: 1;
+     }
+     #subscribe-btn,#contact-btn-div{
+        margin-left: auto;
+        margin-right: auto;
+     }
+     #contact-sec{
+        /* padding: 10px auto; */
+        height: auto;
+     }
+     .deal-heading{
+        font-size: 30px;
+        padding-bottom: 5px;
+     }
+     .footer-para{
+        margin-top: -30px;
+        font-size: 14px;
+        padding: 20px;
+     }
 }
