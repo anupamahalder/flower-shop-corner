@@ -102,9 +102,7 @@ button:hover{
     background-position: bottom;
  }
  .fdiv>img{
-    /* width: 100%; */
     height: 80%;
-    /* object-fit: cover; */
     align-items:center;
     margin-top: 100px;
  }
@@ -116,15 +114,34 @@ button:hover{
     font-size: 20px;
     font-weight: 700;
  }
+/* This is service section  */
+#service-div{
+    margin: 100px auto;
+    background-color: rgba(39, 39, 39, 0.05);
+    padding-top: 70px;
+ }
+ .serivce-img-div{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+ }
+ .service-text{
+    display: flex;
+    align-items: center;
+    padding-bottom: 70px;
+    color: rgba(39, 39, 39, 0.8);
+    font-size: 18px;
+    font-weight: 600;
+ }
+ 
+
+
 
 /* Media queries  */
 @media screen and (max-width:576px) {
     #header{
         flex-direction: column-reverse;
-    }
-    #head-img{
-        
-        /* align-items: center; */
     }
     #heading{
         font-size: 34px;
@@ -153,5 +170,18 @@ button:hover{
     .fdiv>img{
         margin-top: 80px;
         margin-left: 50px;
+     }
+     .serivce-img-div{
+        flex-direction: column;
+     }
+     .service-img{
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        gap: 10px;
+        /* justify-content: center; */
+        align-items: center;
+        margin: 0;
      }
 }
