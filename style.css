@@ -40,6 +40,7 @@ button{
     font-weight: 800;
     border: 0;
     font-size: large;
+    cursor: pointer;
 }
 button:hover{
     background-color: #b92d4b;

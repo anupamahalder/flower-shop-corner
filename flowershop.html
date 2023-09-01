@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flower shop</title>
+    <link rel="stylesheet" href="./flowerStyle.css">
+</head>
+<body>
+    <header id="header">
+        <button onclick="goToHome()" id="home-btn">Back To Home</button>
+    </header>
+    <main id="main">
+        <!-- Card section  -->
+        <section id="card-section">
+            <div class="img-div">
+                <img class="img" src="./imageFolder/Rectangle 6.png" alt="">
+                <h3>Red Rose</h3>
+                <p>This flower is garden fresh rose with bright color</p>
+                <p>Price: <span>25</span> $</p>
+                <button id="rose-btn" class="add-btn">Add To Cart</button>
+            </div>
+            <div class="img-div">
+                <img class="img" src="./imageFolder/Rectangle 4.png" alt="">
+                <h3>Snow White Flower</h3>
+                <p>The fragrance of the flower is unforgetable</p>
+                <p>Price: <span>40</span> $</p>
+                <button id="white-btn" class="add-btn">Add To Cart</button>
+            </div>
+            <div class="img-div">
+                <img class="img" src="./imageFolder/Rectangle 5.png" alt="">
+                <h3>Multi Colored Flower</h3>
+                <p>The beauty of the flower is best to see and feel</p>
+                <p>Price: <span>70</span> $</p>
+                <button id="multi-btn" class="add-btn">Add To Cart</button>
+            </div>
+        </section>
+        <!-- Price section  -->
+        <section id="price-section">
+            <div id="flower-price-div">
+                <h1>Flowers name</h1>
+                <div></div>
+                <hr>
+                <p>Total: <span>00</span></p>
+                <p>Discount: <span>00</span></p>
+                <hr>
+                <h1>Grand Total: <span>00</span></h1>
+            </div>
+        </section>
+    </main>
+    <script src="./shopingScript.js"></script>
+</body>
+</html>
