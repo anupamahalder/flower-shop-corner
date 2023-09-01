@@ -158,6 +158,26 @@ button:hover{
  #makered{
     color: rgb(238, 50, 50);
  }
+ /* This is instagram section  */
+ .insta-text{
+    text-align: center;
+ }
+ .insta-para{
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    padding-bottom: 50px;
+ }
+ .insta-img-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 100px;
+ }
+ .insta-img>img{
+    /* width: 90%; */
+    width: 250px;
+ }
 
 
 
@@ -175,7 +195,7 @@ button:hover{
     #feature-heading{
         font-size: 30px;
     }
-    #feature-text{
+    #feature-text,.insta-para{
         /* margin: 0 20px; */
         font-size: 12px;
     }
@@ -194,7 +214,7 @@ button:hover{
         margin-top: 80px;
         margin-left: 50px;
      }
-     .serivce-img-div,#sell-div{
+     .serivce-img-div,#sell-div,.insta-img-div{
         flex-direction: column;
      }
      .service-img{
