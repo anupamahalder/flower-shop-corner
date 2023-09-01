@@ -215,6 +215,31 @@ button:hover{
  #subscribe-btn{
     padding: 18px;
  }
+ /* This is additional block design  */
+#addi{
+    background-color: #b92d4b;
+    height: 400px;
+    color: aliceblue;
+ }
+ #addi h1{
+    padding-top: 50px;
+    text-align: center;
+ }
+ .add{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 50px;
+ }
+ .tips{
+    font-size: 24px;
+    font-weight: 600;
+    justify-content: center;
+    margin-bottom: 10px;
+ }
+.tips1>p>span{
+    font-weight: 800;
+}
 
 
 /* Media queries  */
