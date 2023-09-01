@@ -29,4 +29,5 @@ function handleClickBtn(target){
 
     //create element to show the price there
     document.getElementById('totalPrice').innerText = total;
+    document.getElementById('grandPrice').innerText = total;
 }
